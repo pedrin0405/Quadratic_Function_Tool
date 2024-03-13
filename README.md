@@ -3,7 +3,7 @@
 
 Pré-requisitos: Python
 
-BAIXAR MÓDULOS
+BAIXAR MÓDULOS:
     Macbook:
         pip3 install matplotlib
 
@@ -12,14 +12,14 @@ BAIXAR MÓDULOS
         python -m pip install -U matplotlib
 
 
-MÓDULOS
+MÓDULOS:
     - from os import system, name:  Módulo pra limpar o Terminal
     - import matplotlib.pyplot as plt:  Módulo para gerar o Gráfico
     
-VARIÁVEIS   
-    ENTRADAS
+VARIÁVEIS:  
+    ENTRADAS:
         - a, b e c: É as entradas dos Coeficientes, sendo os principais e mais importantes dados;
-    CÁLCULOS
+    CÁLCULOS:
         - valor_X: Lista onde conterar os valores do Vertice X
         - valor_Y: Lista onde conterar os valores do Vertice Y
         - x1: X' da fórmula de Bhaskara
@@ -28,8 +28,8 @@ VARIÁVEIS
         - Xv: Vertice de X
         - Yv: Vertice de Y
 
-FUNÇÕES
-    SCREEN
+FUNÇÕES:
+    SCREEN:
         - limpar_tela()
             * Objetivo: Identificar o Sistema Operacional e limpar o Terminal para ter 
             uma visão mais clean da saída do codigo
@@ -43,7 +43,7 @@ FUNÇÕES
             * Objetivo: Apresentar os print's dos calculos/resultados da equação
             * Forma de Uso: Chamar a função 'grafic()' introduzindo nela as entradas de [a, b, c, X, Y, x1, x2, delta, Xv, Yv].
     
-    TRANSFORMER
+    TRANSFORMER:
         - conversor()
             * Objetivo: Ler as entradas string:'a, b e c' e converter-las em float.
                 Ex: Entrada (string) = 1,1 -> Após a coversão (float) = 1.1
